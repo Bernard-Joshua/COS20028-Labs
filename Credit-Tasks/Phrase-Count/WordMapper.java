@@ -53,7 +53,7 @@ public class WordMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
       if (word.equals(phrase_goal)) {
         
         /*
-         * Set the phrase variable.
+         * Set the phrase variable to check.
          * Call the write method on the Context object to emit a key
          * and a value from the map method.
          */
